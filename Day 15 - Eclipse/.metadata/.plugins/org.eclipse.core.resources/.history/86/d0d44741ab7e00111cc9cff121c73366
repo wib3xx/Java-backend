@@ -1,0 +1,19 @@
+package com.icici.user1;
+
+import com.icici.account1.Account1;
+public class User1 {
+
+	public static void main(String[] args) {
+		Account1 account = new Account1();
+		account.setBalance(10000);
+		System.out.println("Balance "+ account.getBalance());
+		
+		account.setPrice(100);
+		System.out.println("Price "+ account.getPrice());
+		
+		account.setDiscount(10);
+		System.out.println("Discount "+ account.getDiscount());
+		
+	}
+	
+}

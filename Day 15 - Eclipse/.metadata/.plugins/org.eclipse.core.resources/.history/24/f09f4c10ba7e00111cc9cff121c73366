@@ -1,0 +1,15 @@
+package com.icici.bank;
+
+public class ATM {
+
+	public static void main(String[] args) {
+		
+		Account account = new Account(10000, "Sarvagay");
+
+		System.out.println("Check Balance: "+ "Rs."+ account.checkBalance());
+			
+		account.withdraw(1000);
+		System.out.println("Available Balance after Withdraw "+"Rs."+ account.checkBalance());
+	}
+	
+}

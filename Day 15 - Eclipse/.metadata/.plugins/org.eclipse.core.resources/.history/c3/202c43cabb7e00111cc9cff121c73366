@@ -1,0 +1,12 @@
+package com.phonepay.upi;
+
+public class UPI {
+
+	public static void main(String[] args) {
+		Account acc = new Account(10000, "Sarvagay Sanmotra");
+		
+		System.out.println("Account Balance: " + acc.checkBalance());
+		
+	}
+	
+}

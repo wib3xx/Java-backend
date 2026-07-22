@@ -1,0 +1,15 @@
+package com.icici.bank;
+
+import  com.icici.bank.Account;
+
+public class ATM {
+
+	public static void main(String[] args) {
+		
+		Account account = new Account(10000, "Sarvagay");
+
+			
+		
+	}
+	
+}

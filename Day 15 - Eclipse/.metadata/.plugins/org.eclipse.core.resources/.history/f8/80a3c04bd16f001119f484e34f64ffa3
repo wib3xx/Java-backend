@@ -1,0 +1,23 @@
+package com.arrayexamples;
+
+public class ArrayChecker {
+
+	public static void main(String[] args) {
+		
+		ArrayChecker.checkArray();
+		
+	}
+	public static void checkArray() {
+		
+		int numbersType1 = new int[9];
+		int numbersType2 = new int[7];
+		
+		int numbersType1[]= {2,3,1,5,6,-78,95,43,21,-31};
+			for()
+		int numbersType2 [] = {12,4,31,5,6,78,95,42};
+		
+		
+		
+	}
+	
+}

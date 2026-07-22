@@ -1,0 +1,5 @@
+package com.icici.bank;
+
+public class ATM {
+
+}

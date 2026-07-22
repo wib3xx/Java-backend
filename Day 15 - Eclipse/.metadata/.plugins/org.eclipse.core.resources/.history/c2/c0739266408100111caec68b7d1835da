@@ -1,0 +1,18 @@
+package com.paytm.upi;
+
+public class User {
+
+	public static void main(String[] args) {
+		Account account = new Account(100 , "Sarvagay");
+		
+		System.out.println("Available Balance- "+"Rs. "+ account.checkBalance());
+		
+		account.transferAmount(50);
+		System.out.println("Available Balance after transferring 50 Rs- "+"Rs. "+ account.checkBalance());
+		
+		account.recieverAmount(10);
+		System.out.println("Available Balance after recieving 10 Rs- "+"Rs. "+ account.checkBalance());
+
+	}
+	
+}

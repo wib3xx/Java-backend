@@ -1,0 +1,13 @@
+package com.navi.app;
+
+public class User {
+
+	public static void main(String[] args) {
+		
+		Account account = new Account(10000 , "Sarvagay Sanmotra");
+		
+		System.out.println("Avaiable Balance: "+ "Rs. "+ account.checkBalance());
+		
+	}
+	
+}

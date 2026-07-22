@@ -1,0 +1,18 @@
+package com.arrayexamples;
+
+public class ArrayChecker {
+
+	public static void main(String[] args) {
+		
+		checkArray();
+		
+	}
+	public static void checkArray() {
+		
+		int numbers1 []= {2,3,1,5,6,-78,95,43,21,-31};
+		int numbers2 [] = {12,4,31,5,6,78,95,42};
+		
+		
+	}
+	
+}

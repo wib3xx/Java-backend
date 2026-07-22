@@ -1,0 +1,32 @@
+package com.icici.bank;
+
+public class Account {
+	
+	//Making private so that no other class can modify
+	private int balance;
+	private String name;
+	
+	public Account(int balance, String name) {
+		super();
+		this.balance = balance;
+		this.name = name;
+	}
+	//providing public setter so that other class can modify or set the data
+	public void deposit(int amount) {
+		if(amount>0) {
+			balance = balance + amount;
+		}
+	}
+	//providing public setter so that other class can modify or set the data
+	public void withdraw(int amount) {
+		if(amount <= balance) {
+			balance = balance - amount;
+		}
+	}
+	
+	////providing public getter so that other class can modify or set the data
+	public int checkBalance() {
+		return balance;
+	}
+	
+}

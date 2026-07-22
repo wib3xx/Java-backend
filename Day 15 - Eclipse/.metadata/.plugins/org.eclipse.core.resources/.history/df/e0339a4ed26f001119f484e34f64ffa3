@@ -1,0 +1,42 @@
+package com.arrayexamples;
+
+public class ArrayChecker {
+
+	public static void main(String[] args) {
+		
+		ArrayChecker.checkArray();
+		
+	}
+	public static void checkArray() {
+		
+		int numbersType1[] = new int[10];
+	//	int numbersType2 = new int[7];
+		
+
+		numbersType1[0] = 2;
+		numbersType1[1] = 3;
+		numbersType1[2] = 1;
+		numbersType1[3] = 5;
+		numbersType1[4] = 6;
+		numbersType1[5] = -78;
+		numbersType1[6] = 95;
+		numbersType1[7] = 43;
+		numbersType1[8] = 21;
+		numbersType1[9] = -31;
+		
+		for(int i = 0; i < numbersType1.length ; i++) {
+			int numbers = numbersType1[i]; 
+				if(i < 0) {
+					System.out.println("The Negative Numbers are: "+ numbers);
+				}
+		}
+
+			
+			
+			//	int numbersType2 [] = {12,4,31,5,6,78,95,42};
+		
+		
+		
+	}
+	
+}

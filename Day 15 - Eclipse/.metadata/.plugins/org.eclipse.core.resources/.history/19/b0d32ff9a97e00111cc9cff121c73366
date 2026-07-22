@@ -1,0 +1,18 @@
+package com.icici.user1;
+
+import com.icici.account1.Account1;
+
+public class User1 {
+
+	public static void main(String[] args) {
+		Account1 account = new Account1();
+		
+		System.out.println("Balance before Setting"+ " "+ account.getBalance());
+		
+		account.setBalance(20000);
+		
+		System.out.println("Balance after setting balance: "+" Rs."+ account.getBalance());
+		
+	}
+	
+}

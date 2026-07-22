@@ -1,0 +1,40 @@
+package com.arrayexamples;
+
+public class ArrayExample {
+
+	public static void main(String[] args) {
+
+		ArrayExample.storeElements();
+	}
+
+	public static void storeElements() {
+
+		// Create Array (creating a container - size = 10 elements , type : int)
+
+		// int balance = 1000;
+
+		int marks[] = new int[5]; // creating an array of int which will hold 5 elements.
+		// add an element to an array
+		// int marks[] = {233, 23, 1234, 6477, 718, 882, };
+		marks[0] = 23;
+		marks[1] = 45;
+		marks[2] = 88;
+		marks[3] = 11;
+		marks[4] = 8;
+
+		// how to read elements
+	//	int firstElement = marks[0];
+		// System.out.println("First element: "+ firstElement);
+		// String names[] = new String[20]; //Creating an array of String which will
+		// hold 20 elements
+		// Loop / iterate an array
+		for (int i = 0; i < marks.length; i++) {
+			int mark = marks[i];
+			if (mark < 40) {
+				System.out.println(mark);
+
+			}
+		}
+	}
+
+}
