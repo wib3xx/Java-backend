@@ -1,4 +1,4 @@
-package com.abstractt.ordermgmt.system;
+package com.abstracts.ordermgmt.system;
 
 public abstract class OrderManagement {
 	
