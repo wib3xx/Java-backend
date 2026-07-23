@@ -1,4 +1,4 @@
-package com.oops.interfacee.concepts;
+package com.oops.interfaces.concepts01;
 
 public class WireTransfer implements IPaymentSystem {
 
