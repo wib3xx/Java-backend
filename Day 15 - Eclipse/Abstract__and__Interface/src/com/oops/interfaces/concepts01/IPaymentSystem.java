@@ -22,7 +22,7 @@ public interface IPaymentSystem {
 		return txnFee;
 	}
 	
-	private static void connectToDB() {
+	static void connectToDB() {
 		System.out.println("Database");
 	}
 }
