@@ -716,3 +716,40 @@ Java Model Exception: Error in Java Model (code 1006): C:\Program Files\Java\jre
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1006 2026-07-23 18:01:22.289
 !MESSAGE C:\Program Files\Java\jre1.8.0_491\lib\rt.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-07-23 22:18:48.064
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: Abstract__and__Interface
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): UPIOrder [in [Working copy] CardOrder.java [in com.oops.interfaces.OnlineShoppingSystem [in src [in Abstract__and__Interface]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:548)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:591)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:280)
+	at org.eclipse.jdt.internal.core.Member.getNameRange(Member.java:383)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.createProblemFor(AbstractImageBuilder.java:538)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:230)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:501)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:358)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:309)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:486)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:387)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:377)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.incrementalBuildLoop(IncrementalImageBuilder.java:207)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:164)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:333)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:250)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1146)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:363)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:486)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:489)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:601)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:549)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:631)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:208)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-07-23 22:18:48.064
+!MESSAGE UPIOrder [in [Working copy] CardOrder.java [in com.oops.interfaces.OnlineShoppingSystem [in src [in Abstract__and__Interface]]]] does not exist
