@@ -9,13 +9,13 @@ public class Driver {
 			upi.cancel();
 			upi.checkStatus();
 			System.out.println();
-			
-		CardPayment card = new CardPayment();
+		
+			CardPayment card = new CardPayment();
 			card.transfer();
 			card.recieve();
 			card.cancel();
 			card.checkStatus();
-		
+		  
 	}
 	
 }

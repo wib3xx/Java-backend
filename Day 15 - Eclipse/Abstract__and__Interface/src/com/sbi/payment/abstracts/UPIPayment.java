@@ -1,6 +1,6 @@
 package com.sbi.payment.abstracts;
 
-public class UPIPayment extends PaymentSystem {
+public class UPIPayment extends PaymentSystem {        //child class
 
 	@Override
 	public void transfer() {

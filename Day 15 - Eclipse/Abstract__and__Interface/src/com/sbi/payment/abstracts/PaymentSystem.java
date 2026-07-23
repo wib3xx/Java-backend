@@ -7,7 +7,7 @@ public abstract class PaymentSystem {
 	}
 	
 	public abstract void transfer();
-	public abstract void recieve();
+	public abstract void recieve();      //methods
 	public abstract void cancel();
 	
 	public static void checkStatus() {
