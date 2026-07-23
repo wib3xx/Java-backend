@@ -1,4 +1,4 @@
-package com.oops.interfacee.concepts2;
+package com.oops.abstracts.concepts;
 
 public class Driver {
 
