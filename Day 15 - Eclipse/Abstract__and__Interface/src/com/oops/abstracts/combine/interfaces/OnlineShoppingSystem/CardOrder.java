@@ -1,4 +1,4 @@
-package com.oops.interfaces.OnlineShoppingSystem;
+package com.oops.abstracts.combine.interfaces.OnlineShoppingSystem;
 
 public class CardOrder extends Order implements IPayment {
 

@@ -1,4 +1,4 @@
-package com.oops.interfaces.OnlineShoppingSystem;
+package com.oops.abstracts.combine.interfaces.OnlineShoppingSystem;
 
 public class NetBankingOrder extends Order implements IPayment {
 
