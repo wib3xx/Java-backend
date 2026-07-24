@@ -35,9 +35,16 @@ public class WalletRide extends Ride implements IPayment {
 	@Override
 	void calculateFare() {
 		System.out.println("Fare calculated");
-		
+			
+	}
 	
-		
+	@Override
+	public void cashBack() {
+		System.out.println("5% Cashback on UPI");
+	}
+	@Override
+	public void applyCoupon() {
+		System.out.println("Coupon Applied!!!");
 	}
 
 }

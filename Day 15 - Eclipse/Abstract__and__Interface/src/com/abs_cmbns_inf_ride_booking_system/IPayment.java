@@ -6,7 +6,10 @@ public interface IPayment {
 	void refundPayment();
 	void generateReciept();
 	default void cashBack() {
-		
+		System.out.println("Cashback not applicable");
+	}
+	default void applyCoupon() {
+		System.out.println("Coupons not applicable");
 	}
 
 }

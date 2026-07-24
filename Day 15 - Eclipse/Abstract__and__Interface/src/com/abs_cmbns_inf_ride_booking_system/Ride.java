@@ -5,7 +5,7 @@ public abstract class Ride {
 	abstract void bookRide();
 	abstract void cancelRide();
 	abstract void calculateFare();
-	
+	//abstract void cashBack();
 	public void trackRide() {
 		System.out.println("Tracking your ride");
 	}
