@@ -19,7 +19,7 @@ public class Driver {
 		payment.verifyPayment();
 		System.out.println();
 		
-		System.out.println("------Card Payment Status-----");
+		System.out.println("------Card Payment Status!-----");
 		order = new CardOrder();
 		payment = new CardOrder();
 		payment.pay();
