@@ -9,6 +9,6 @@ public interface IFoodDeliveryApp {
 	void rateRestaurant();
 	default void scheduleDelivery() {
 		System.out.println("Scheduled Delivery not Supported!");
-	};
+	}
 	
 }
