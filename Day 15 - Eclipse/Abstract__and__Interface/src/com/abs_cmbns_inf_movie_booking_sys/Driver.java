@@ -6,6 +6,8 @@ public class Driver {
 	public static void main(String[] args) {
 		
 		System.out.println("============== BookMyShow ===============");
+	//	Book booking = new Book();
+	//	IPayment payment = new IPayment();
 		Book book;
 		IPayment payment;
 		System.out.println();

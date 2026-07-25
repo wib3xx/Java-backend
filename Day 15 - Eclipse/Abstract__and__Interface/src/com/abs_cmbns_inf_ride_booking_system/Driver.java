@@ -11,6 +11,11 @@ public class Driver {
 		System.out.println("------------ Ride using UPI Payment ------------");
 		payment = new UPIRide();
 		ride = new UPIRide();
+		if(ride instanceof PremiumMember) {
+			System.out.println("Free Ride Coupon");
+		} else {
+			System.out.println("No Coupon");
+		}
 		
 		ride.bookRide();
 		ride.trackRide();
@@ -27,7 +32,11 @@ public class Driver {
 		System.out.println("------------ Ride using Card Payment------------");
 		payment = new CardRide();
 		ride = new CardRide();
-		
+		if(ride instanceof PremiumMember) {
+			System.out.println("Free Ride Coupon");
+		} else {
+			System.out.println("No Coupon");
+		}
 		ride.bookRide();
 		ride.trackRide();
 		ride.showDriverDetails();
@@ -43,7 +52,11 @@ public class Driver {
 		System.out.println("------------ Ride using Wallet ------------");
 		ride = new WalletRide();
 		payment = new WalletRide();
-		
+		if(ride instanceof PremiumMember) {
+			System.out.println("Free Ride Coupon");
+		} else {
+			System.out.println("No Coupon");
+		}
 		ride.bookRide();
 		ride.trackRide();
 		ride.showDriverDetails();
@@ -59,7 +72,11 @@ public class Driver {
 		System.out.println("------------ Ride with Cash Payment ------------");
 		ride = new CashRide();
 		payment = new CashRide();
-		
+		if(ride instanceof PremiumMember) {
+			System.out.println("Free Ride Coupon");
+		} else {
+			System.out.println("No Coupon");
+		}
 		ride.bookRide();
 		ride.trackRide();
 		ride.showDriverDetails();

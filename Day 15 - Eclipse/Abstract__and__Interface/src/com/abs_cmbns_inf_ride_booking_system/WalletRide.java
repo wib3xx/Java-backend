@@ -1,6 +1,6 @@
 package com.abs_cmbns_inf_ride_booking_system;
 
-public class WalletRide extends Ride implements IPayment {
+public class WalletRide extends Ride implements IPayment, PremiumMember {
 
 	@Override
 	public void makePayment() {
