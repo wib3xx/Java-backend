@@ -17,7 +17,7 @@ public class Driver4 {
 		Supplier<String> supplier = () -> "Bengaluru";
 		System.out.println(supplier.get());
 		
-		Supplier<Integer> supplier2 = () -> 100000 + new Random().nextInt(90000);
+		Supplier<Integer> supplier2 = () -> 10000 + new Random().nextInt(90000);
 		System.out.println("OTP: "+ supplier2.get());
 		
 		Consumer<String> consumer = (emailTo) -> System.out.println("Email has sent : "+ emailTo);
