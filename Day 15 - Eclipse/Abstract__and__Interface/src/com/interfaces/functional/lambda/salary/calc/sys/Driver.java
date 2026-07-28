@@ -13,7 +13,7 @@ public class Driver {
 		//Predicate
 		Predicate<Integer> predicate = (a) ->  a <100; 
 		System.out.println("Is Employee Working Hard?: "+ predicate.test(80));
-		System.out.println("Is Employee in Love with HR? : "+predicate.test(120));
+		System.out.println("Is Employee in Love with HR? </3 : "+predicate.test(120));
 		
 		//Supplier
 		Supplier<String> supplier = () -> "Banglore";
@@ -46,7 +46,7 @@ public class Driver {
 		calc = (salary , absentees) -> {
 			return salary - absentees;
 		};
-		System.out.println("Absentism charges: Rs.1600");
+		System.out.println("Absentism penalty charges: Rs.1600");
 		System.out.println("Total Salary: Rs."+calc.calculate(totalSalary, 1600));
 		
 	}
