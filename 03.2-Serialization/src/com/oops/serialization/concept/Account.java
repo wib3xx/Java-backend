@@ -4,10 +4,13 @@ import java.io.Serializable;
 
 public class Account implements Serializable{
 
-	private int balance;
+	
+	private static final long serialVersionUID = 1L;
+	private transient int balance;          //transient --> skips the serialization
 	private String name;
 	private String password;
 	private String location;
+	//private String address;
 	public Account(int balance, String name, String password, String location) {
 		super();
 		this.balance = balance;

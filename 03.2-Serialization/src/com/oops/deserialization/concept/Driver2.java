@@ -14,5 +14,5 @@ public class Driver2 {
 		Account account = (Account) ois.readObject();
 		System.out.println("De-Serialization Done");
 		System.out.println("Account "+account.getBalance()+" " + account.getName()+" "+ account.getPassword()+" "+ account.getLocation());
-	}
+	}               
 }
