@@ -27,6 +27,5 @@ public class Account implements Serializable {
 	public String getLocation() {
 		return location;
 	}
-	
-	
+		
 }
