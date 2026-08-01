@@ -22,6 +22,6 @@ public class Driver {
 		//Add oos object to the file (acc.ser) --> Serialization
 		
 		oos.writeObject(acc);
-		System.out.println("Serialization done :) ");
+		System.out.println("Serialization done :-) ");
 	}
 }
