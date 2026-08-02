@@ -31,7 +31,7 @@ public class Driver {
 		Employee e1 = new Employee("Sarvagay_Sanmotra", new Address("Banglore, KA, IND"));
 		
 		Employee e2 =(Employee) e1.clone();
-		System.out.println(e2.name);
-		System.out.println(e2.address);
+		System.out.println("Name: "+e2.name);
+		System.out.println("Address: "+e2.address);
 	}
 }
