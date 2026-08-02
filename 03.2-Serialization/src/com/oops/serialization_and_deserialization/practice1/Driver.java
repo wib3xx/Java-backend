@@ -9,7 +9,7 @@ public class Driver {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		//object creation
-		Account acc = new Account(10000, "Sarvagay_Sanmotra" , "123@123" , "Banglore");
+		Account acc = new Account(10000, "Sarvagay_Sanmotra" , "123@123@123" , "Banglore");
 		//TO -Do --> Send acc object to network / write file/database
 		
 		//Here we have written object to file
