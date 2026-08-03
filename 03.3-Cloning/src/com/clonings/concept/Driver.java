@@ -28,7 +28,7 @@ class Employee{
 public class Driver {
 
 	public static void main(String[] args) throws CloneNotSupportedException {
-		Employee e1 = new Employee("Sarvagay", new Address("Banglore, KA, IND"));
+		Employee e1 = new Employee("Sarvagay_Sanmotra", new Address("Banglore, KA, IND"));
 		
 		Employee e2 =(Employee) e1.clone();
 		System.out.println("Name: "+e2.name);
