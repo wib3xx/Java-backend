@@ -10,6 +10,7 @@ public class Account implements Serializable{
 	private String name;
 	private String password;
 	private String location;
+	private String id;
 	//private String address;
 	public Account(int balance, String name, String password, String location) {
 		super();
