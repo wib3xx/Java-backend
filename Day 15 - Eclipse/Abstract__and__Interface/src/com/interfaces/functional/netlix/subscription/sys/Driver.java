@@ -25,7 +25,7 @@ public class Driver {
 		Function<Integer, Integer> couponAmt = (amt) -> amt = amt - (amt*20/100);
 		System.out.println("Plan: Premium");
 		System.out.println("Price of Membership: Rs. 80000");
-		System.out.println("Coupon Worth: 20% Discount");
+		System.out.println("Coupon Worth: 20% Discount !");
 		System.out.println("Price after Coupon: Rs."+ couponAmt.apply(80000));
 		System.out.println("Subscription Added!!!!");
 	}
