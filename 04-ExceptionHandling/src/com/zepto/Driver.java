@@ -8,7 +8,7 @@ public class Driver {
 		//String name = "Sarvagay Sanmotra";
 		String name = null;    //Null Pointer exception -->null.length()
 		
-		System.out.println("Length of String is: "+ name.length());
+		System.out.println("Length of String is- "+ name.length());
 		Driver driver = new Driver();
 		driver.doSomething();
 		System.out.println("Execution ENDS");
