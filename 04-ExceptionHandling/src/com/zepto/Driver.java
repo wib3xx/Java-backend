@@ -6,7 +6,11 @@ public class Driver {
 		
 		System.out.println("Execution STARTS");
 		//String name = "Sarvagay Sanmotra";
-		String name = "Sarvagay";    //Null Pointer exception -->null.length()
+		
+		int amount = 100;
+		int result = 100/0; //Arithmetic exception
+		
+		String name = args[0];    //Null Pointer exception -->null.length()
 		
 		System.out.println("Length of String is- "+ name.length());
 		Driver driver = new Driver();
