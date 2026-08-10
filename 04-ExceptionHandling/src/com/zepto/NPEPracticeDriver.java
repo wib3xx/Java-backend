@@ -1,7 +1,7 @@
 package com.zepto;
 
 public class NPEPracticeDriver {
-
+//Null pointer Exception
 	public static void main(String[] args) {
 		System.out.println("Execution STARTS");
 		try {
