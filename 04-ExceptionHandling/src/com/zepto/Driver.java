@@ -5,12 +5,12 @@ public class Driver {
 	public static void main(String[] args) {
 		
 		System.out.println("Execution STARTS");
-		//String name = "Sarvagay Sanmotra";
+		//String name = "Sarvagay Sanmotra";      
 		
 		int amount = 100;
 		int result = 100/0; //Arithmetic exception
 		
-		String name = args[0];    //Null Pointer exception -->null.length()
+		String name = args[0];   //risky code //Null Pointer exception -->null.length()
 		
 		System.out.println("Length of String is- "+ name.length());
 		Driver driver = new Driver();
