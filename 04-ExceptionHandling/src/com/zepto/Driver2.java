@@ -5,7 +5,7 @@ public class Driver2 {
 	public static void main(String[] args) {
 		System.out.println("Execution STARTED");
 		try {
-		int result = 22/0;
+		int result = 22/0;         
 		String name = args[0];
 		String name1 = null;
 		
@@ -13,9 +13,15 @@ public class Driver2 {
 		driver2.doSomething();
 		
 		}
-		catch(Exception e) {
-			System.out.println("if 0 is Denominator, then It is proven as Infinity");
+		catch(ArithmeticException e) {
+			System.out.println("if 0 is Denominator, Its Undefined");
+			e.getStackTrace();
+		}
+		catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("User input not provided");
+			e.getStackTrace();
+		}
+		catch(NullPointerException e) {
 			System.out.println("User input is null");
 			e.getStackTrace();
 		}

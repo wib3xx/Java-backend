@@ -10,5 +10,4 @@ public class Driver {
 		user.createUser("Sarvagay", "123@123");
 	}
 	
-	
 }
