@@ -20,7 +20,18 @@ public class Driver {
 		employeeName.add("Ayush");
 		employeeName.add("Modi");
 		
-		System.out.println(employeeName);
+		//System.out.println(employeeName);
 		
+		for(int index = 0; index< employeeName.size(); index++  ) {
+			String name = employeeName.get(index);
+			if(name.startsWith("S")) {
+				System.out.println(name);
+			}
+			
+		}
+//		
+//		for(String name : employeeName) {
+//			System.out.println(name);
+//		}
 	}
 }
