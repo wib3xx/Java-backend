@@ -24,7 +24,5 @@ public class Driver1 {
 			}
 		//	System.out.println(name);
 		}
-		
-		
 	}
 }
