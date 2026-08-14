@@ -14,6 +14,7 @@ public class CountryNames {
 		country.add("Iran");
 		country.add("India");
 		country.add("China");
+		country.add("Chile");
 		country.add("Portuguse");
 		country.add("Spain");
 		country.add("Russia");
