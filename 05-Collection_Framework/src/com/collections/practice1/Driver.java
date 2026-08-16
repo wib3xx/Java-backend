@@ -11,7 +11,7 @@ public class Driver {
 		ArrayList<String> countries = countryNames.getCountryName();
 		
 		for(String country : countries) {
-			if(country.startsWith("A")) {
+			if(country.startsWith("B")) {
 				System.out.println(country);
 				System.out.println("");
 			}
