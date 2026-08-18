@@ -9,6 +9,7 @@ public class CityService {
 		ArrayList<String> cities = new ArrayList();
 		
 		cities.add("Delhi");
+		cities.add("Dahod");
 		cities.add("Daman");
 		cities.add("Dadar");
 		cities.add("Goa");
