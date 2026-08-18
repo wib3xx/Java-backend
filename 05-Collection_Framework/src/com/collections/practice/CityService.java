@@ -13,6 +13,7 @@ public class CityService {
 		cities.add("Daman");
 		cities.add("Dadar");
 		cities.add("Goa");
+		cities.add("Jammu");
 		
 		return cities;
 		
