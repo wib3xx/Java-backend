@@ -14,6 +14,7 @@ public class CityService {
 		cities.add("Dadar");
 		cities.add("Goa");
 		cities.add("Jammu");
+		cities.add("Rajasthan");
 		
 		return cities;
 		

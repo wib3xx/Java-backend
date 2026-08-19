@@ -10,7 +10,7 @@ public class Driver {
 		ArrayList<String> cities = cityService.getCityNames();
 		
 		for(String city : cities) {
-			if(city.startsWith("J")) {
+			if(city.startsWith("R")) {
 				System.out.println(city);
 			}
 		}
