@@ -39,7 +39,7 @@ public class Driver {
 		order.placeOrder();
 		payment.pay();
 			if(order instanceof Membership) {
-				System.out.println("Gold Member: Free Delivery + 20% OFF");
+				System.out.println("Gold Member: Free Delivery + 20% OFF!");
 			} else {
 				System.out.println("Normal User: No Membership Benefits");
 			}

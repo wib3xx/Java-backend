@@ -1,6 +1,6 @@
 package com.abs_cmbns_inf_food_delivery_membership_sys;
 
-public class ZomatoGold extends FoodOrder implements IPayment, Membership{
+public class ZomatoGold extends FoodOrder implements IPayment{
 
 	@Override
 	public void pay() {
