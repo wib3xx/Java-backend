@@ -28,8 +28,8 @@ public class Driver {
 		payment.refundPayment();
 		ride.cancelRide();
 		System.out.println();
-		
-		System.out.println("------------- Ride using Card Payment-------------");
+		                                                                                  
+		System.out.println("------------- Ride using Card Payment -------------");
 		payment = new CardRide();
 		ride = new CardRide();
 		if(ride instanceof PremiumMember) {
