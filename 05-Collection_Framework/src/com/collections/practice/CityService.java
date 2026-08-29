@@ -15,6 +15,7 @@ public class CityService {
 		cities.add("Goa");
 		cities.add("Jammu");
 		cities.add("Jodhpur");
+		cities.add("Jaisalmer");
 		cities.add("Rajasthan");
 		
 		return cities;
