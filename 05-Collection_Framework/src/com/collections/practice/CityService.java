@@ -17,6 +17,7 @@ public class CityService {
 		cities.add("Jodhpur");
 		cities.add("Jaisalmer");
 		cities.add("Rajasthan");
+		cities.add("Gandhi Nagar");
 		
 		return cities;
 		
