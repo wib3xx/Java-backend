@@ -69,7 +69,7 @@ public class Driver {
 		ride.cancelRide();
 		System.out.println();
 		
-		System.out.println("------------ Ride with Cash Payment -------------");
+		System.out.println("------------ Ride with Cash Payment --------------");
 		ride = new CashRide();
 		payment = new CashRide();
 		if(ride instanceof PremiumMember) {
