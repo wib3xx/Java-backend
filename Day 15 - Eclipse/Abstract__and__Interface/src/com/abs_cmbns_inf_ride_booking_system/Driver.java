@@ -73,7 +73,7 @@ public class Driver {
 		ride = new CashRide();
 		payment = new CashRide();
 		if(ride instanceof PremiumMember) {
-			System.out.println("Free Ride Coupon");
+			System.out.println("Free Ride Coupon! ");
 		} else {
 			System.out.println("No Coupon");
 		}
