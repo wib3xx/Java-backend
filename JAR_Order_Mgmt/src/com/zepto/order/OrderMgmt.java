@@ -1,8 +1,11 @@
 package com.zepto.order;
 
+import com.zepto.payment.PaymentService;
+
 public class OrderMgmt {
 
 	public static void main(String[] args) {
+		
 		
 	}
 	
@@ -28,6 +31,8 @@ public class OrderMgmt {
 		
 		
 		// confirm the payment
+		PaymentService paymentService = new PaymentService();
+		
 		
 	}
 }

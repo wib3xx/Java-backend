@@ -12,9 +12,9 @@ public class Driver {
 		Predicate<Integer> validUser = (plan) -> plan > 499;
 		System.out.println("Is user Authenticated? = "+validUser.test(699));
 		
-		Supplier<Integer> otp = () -> 100000 + new Random().nextInt(900000);
+		Supplier<Integer> otp = () -> 1000 + new Random().nextInt(9000);
 		otp.get();
-		
+		System.out.println("OTP: "+ otp.get());
 		Consumer<String > email = (emailTo) -> System.out.println("Email sent to: "+ emailTo);
 		email.accept("sarvagay123gist@gmail.com");
 		
