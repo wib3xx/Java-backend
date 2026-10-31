@@ -13,3 +13,4 @@ public class Driver {
 			System.out.println("Total Ticket Price: Rs."+ calculate);
 		}
 }
+ 

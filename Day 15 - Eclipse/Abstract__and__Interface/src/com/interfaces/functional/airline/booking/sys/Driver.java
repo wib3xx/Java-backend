@@ -16,7 +16,7 @@ public class Driver {
 		Predicate<Integer> weight = (w) -> w < 15; 
 		System.out.println("Weight of luggage is under 15KG: "+ weight.test(10));
 		
-		Supplier<Integer> boardingPass = () -> 100000 + new Random().nextInt(900000);
+		Supplier<Integer> boardingPass = () -> 10000 + new Random().nextInt(90000);
 		System.out.println("Boarding Pass ID: "+ boardingPass.get());
 		
 		Consumer<String> email = (emailTo) -> System.out.println("Email sent to: "+ emailTo);
