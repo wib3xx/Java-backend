@@ -8,7 +8,7 @@ public class Driver {
 		System.out.println();
 		FoodOrder order;
 		IPayment payment;
-		System.out.println("---------------- Zomato Gold ------------------");
+		System.out.println("----------------- Zomato Gold -------------------");
 		order = new ZomatoGold();
 		payment = new ZomatoGold();
 		
