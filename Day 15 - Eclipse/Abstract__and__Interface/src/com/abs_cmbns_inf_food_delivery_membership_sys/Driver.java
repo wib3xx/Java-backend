@@ -20,7 +20,7 @@ public class Driver {
 				System.out.println("Normal User: No Membership Benefits");
 			}
 			System.out.println();
-			System.out.println("---------------- Swiggy One ------------------");
+			System.out.println("----------------- Swiggy One -------------------");
 		order = new SwiggyOne();
 		payment = new SwiggyOne();
 		
