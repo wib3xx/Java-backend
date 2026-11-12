@@ -17,7 +17,7 @@ public class Driver {
 		System.out.println("Weight of luggage is under 15KG: "+ weight.test(10));
 		
 		Supplier<Integer> boardingPass = () -> 10000 + new Random().nextInt(90000);
-		System.out.println("Boarding Pass ID: "+ boardingPass.get());
+		System.out.println("OTP: "+ boardingPass.get());
 		
 		Consumer<String> email = (emailTo) -> System.out.println("Email sent to: "+ emailTo);
 		email.accept("sarvagay123gist@gmail.com");
