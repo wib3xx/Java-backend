@@ -16,7 +16,7 @@ public class Driver {
 		System.out.println("OTP: "+otp.get());
 		
 		Consumer<String> email = (emailTo) -> System.out.println("Email sent to "+ emailTo);
-		email.accept("sarvagay123gist@gmail.com");
+		email.accept("sarvagay123gist@gmail.com ");
 		
 		Function<Integer, Integer> discAmt = (amt) -> amt = amt - (amt*15/100);
 		System.out.println("Discount Price: "+discAmt.apply(1200));
