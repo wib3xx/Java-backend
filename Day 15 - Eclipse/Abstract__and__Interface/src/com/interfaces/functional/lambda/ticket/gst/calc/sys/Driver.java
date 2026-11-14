@@ -10,7 +10,7 @@ public class Driver {
 			int calculate = calc.calculate(1000 , 180 );
 			System.out.println("Movie Ticket Price: Rs. 1000");
 			System.out.println("GST: Rs.180");
-			System.out.println("Total Ticket Price: Rs."+ calculate);
+			System.out.println("Total Ticket Price: Rs. "+ calculate);
 		}
 }
  
