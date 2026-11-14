@@ -8,7 +8,7 @@ public class Driver {
 		System.out.println();
 		System.out.println();
 		
-		System.out.println("----------------Savings Bank Account Info -------------");
+		System.out.println("-----------------Savings Bank Account Info --------------");
 		System.out.println();
 		Account account;
 		IPayment payment;
@@ -28,7 +28,7 @@ public class Driver {
 				System.out.println("You can upgrade to savings bank account, You will get Premium Priviledge ");
 			}
 			System.out.println();
-			System.out.println("----------------Current Bank Account Info -------------");
+			System.out.println("---------------- Current Bank Account Info -------------");
 			System.out.println();
 		account = new CurrentAccount();
 		payment = new CurrentAccount();
