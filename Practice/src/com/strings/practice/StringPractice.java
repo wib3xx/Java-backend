@@ -21,7 +21,7 @@ public class StringPractice {
 					consonants++;
 				}
 			}
-		}
+		} 
 		
 		System.out.println("Vowels: "+ vowels);
 		System.out.println("Consonents: "+ consonants);
