@@ -23,7 +23,7 @@ public class StringPractice {
 			}
 		} 
 		
-		System.out.println("Vowels: "+ vowels);
-		System.out.println("Consonents: "+ consonants);
+		System.out.println("Vowels:  "+ vowels);
+		System.out.println("Consonents:  "+ consonants);
 	}
 }
