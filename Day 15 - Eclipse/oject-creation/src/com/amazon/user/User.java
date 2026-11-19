@@ -8,7 +8,7 @@ public class User {
 	private String email;
 
 	static { // SIB ---> Static initialization block
-		System.out.println("Static initialization Block");
+		System.out.println("Static initialization Block ");
 	}
 		
 	{
