@@ -22,8 +22,8 @@ public class StringPractice {
 				}
 			}
 		} 
-		System.out.println("Vowels and Consonants in this word:");
-		System.out.println("Vowels:  "+ vowels);
-		System.out.println("Consonents:  "+ consonants);
+		
+		System.out.println("No. of Vowels:  "+ vowels);
+		System.out.println("No. of Consonents:  "+ consonants);
 	}
 }
