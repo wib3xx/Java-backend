@@ -19,7 +19,7 @@ public class User {
 
 	public User(String _mobile) {
 
-		this("XYZ", "Sar@1233", _mobile, "Sar@gmail"); // Mandatory Fields / Attributes / Data
+		this("XYZ", "Sar@1233", _mobile, "Sarv@gmail"); // Mandatory Fields / Attributes / Data
 		System.out.println("User-1");
 	}
 
